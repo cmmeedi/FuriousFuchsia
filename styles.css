@@ -1,0 +1,138 @@
+*{
+    font-family: 'Open Sans' sans-serif !important;
+}
+
+#FF{
+    color: rgba(220, 26, 164, 0.84) !important;
+    font-weight: 400 !important;
+}
+
+#topNav{
+    background-color:rgba(220, 26, 164, 0.84) !important;
+}
+
+#topNav a{
+    color: white;
+    font-size: 1.5em;
+}
+#topNav a:hover{
+    background-color: rgb(74, 185, 207) !important;
+}
+
+#carImageJumbo{
+    color: rgba(220, 26, 164, .8);
+    background-image:url('/FF/Assets/FuschiaFuriousDash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    background-color: black;
+}
+#carImageJumbo span{
+    border-radius: 15px;
+    background-color: rgba(27, 39, 61, .25);
+}
+#cars h4{
+    color: rgb(74, 185, 207) !important;
+
+}
+
+hr{
+    color: rgb(74, 185, 207) !important;
+    background: rgb(0,212, 212) !important;
+    width: 100px;
+    height: .2em !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+
+#fuchsiaData{
+    color: white;
+    background-image: url('/FF/Assets/FuchsiaFuriosWaterfall.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    box-shadow: inset 0 0 0 1000px rgba(27, 39, 61, .5);
+}
+#fuchsiaData h1{
+    color: rgba(220, 26, 164, 0.84) !important;
+}
+#fuchsiaData h3{
+    color: rgb(74, 185, 207) !important;
+}
+.dataText{
+    color: #cccccc !important;
+}
+
+footer{
+    color: white;
+    background-color: rgb(31, 66, 93);
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    transition: color .3s;
+}
+footer a:hover{
+    color: rgb(74, 185, 207);
+}
+footer li{
+    transition: padding-left .3s;
+}
+footer li::before{
+    content: '>';    
+    color: rgb(74, 185, 207);
+}
+footer li:hover{
+    padding-left: 12px;
+}
+
+
+.mod{
+    background-color: rgba(220, 26, 164, 0.84);
+}
+
+
+
+/* Registration page CSS */
+
+
+#whole{
+    background-image: url(/FF/Assets/TailofFuchsiaFurious.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    color: rgb(88, 227, 255);
+}
+#formBG{
+    background-color: rgba(220, 26, 164, 0.6);
+}
+#regBtn{
+    background-color: rgba(220, 26, 164, 0.84)!important;
+}
+#regBtn:hover{
+    background-color: rgb(74, 185, 207) !important;
+}
+
+/* PantherPink Page */
+
+
+
+/* FuchsiaMDHR/T */
+
+#carSide{
+    background-image: url('/FF/Assets/FuschiaFuriousSideView.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 900px;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ffsql",
+  "version": "1.0.0",
+  "description": "Connecting to server",
+  "main": "fuchsia.js",
+  "scripts": {
+    "test": "echo \"Error: no text specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
